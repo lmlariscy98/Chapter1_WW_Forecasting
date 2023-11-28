@@ -1,0 +1,32 @@
+project: 
+  type: website
+  output-dir: docs
+
+website:
+  title: "YOURNAME Data Analysis Portfolio"
+  navbar:
+    left:
+      - text: "About Me"
+        href: ./aboutme.html
+      - text: "Projects"
+        menu:
+          - text: "Starter Analysis Exercise"
+            href: ./starter_analysis_exercise/products/report/Starter_Analysis_Report.html
+          - text: "R Coding Exercise"
+            href: ./coding_exercise/coding_exercise.html
+          - text: "Presentation Exercise"
+            href: ./presentation_exercise/presentation_exercise.html
+          - text: "Tidy Tuesday Exercise"
+            href: ./tidytuesday_exercise/tidytuesday_exercise.html
+    right:
+      - icon: github 
+        href: URL-TO-THIS-REPOSITORY-HERE        
+
+format:
+  html:
+    theme: cosmo
+    highlight: zenburn
+    css: styles.css
+    toc: FALSE
+
+

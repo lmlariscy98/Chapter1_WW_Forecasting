@@ -1,0 +1,8 @@
+---
+title: "Presentation Exercise"
+output:
+  html_document:
+    toc: FALSE
+---
+
+Placeholder file for the future data/results presentation exercise.
